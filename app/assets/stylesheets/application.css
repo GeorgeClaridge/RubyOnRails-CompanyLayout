@@ -28,6 +28,22 @@
 }
 
 /* Card Changes */
+
+/* Icons */
+.MailBox {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 0.12em;
+}
+
+/* Colours */
+
+.h1 {
+    color: #007bff;
+}
+
 .card-header {
-    border-bottom: 0px;
+    background-color: #007bff;
+    color: #fff;
 }
