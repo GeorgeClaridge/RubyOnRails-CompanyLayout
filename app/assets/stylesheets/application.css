@@ -16,15 +16,11 @@
 
  /* SHADOW EFFECTS */
 .navbar {
-
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
-
 }
 
 .card {
-
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
-
 }
 
 /* Images */
@@ -32,20 +28,6 @@
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 10px;
-}
-
-/* Icons */
-.MailBox {
-    width: 30px;
-    height: 30px;
-    position: relative;
-    bottom: 0.12em;
-}
-
-/* Colours */
-.card-header {
-    background-color: #007bff;
-    color: #fff;
 }
 
 .TopBackground {
@@ -68,12 +50,18 @@
     background-size: 20rem;
 }
 
-.Slant {
-    width: 100%;
-    height: 9rem;
-    margin-top: -8rem;
-    clip-path: polygon(0 85%,100% 0,100% 100%,0 100%);
+/* Icons */
+.MailBox {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 0.12em;
+}
 
+/* Colours */
+.card-header {
+    background-color: #007bff;
+    color: #fff;
 }
 
 .Email {
@@ -81,4 +69,12 @@
     border-color: #fff;
     color: #007bff;
 }
-    
+
+/* Shape */
+.Slant {
+    width: 100%;
+    height: 9rem;
+    margin-top: -8rem;
+    clip-path: polygon(0 85%,100% 0,100% 100%,0 100%);
+
+}
