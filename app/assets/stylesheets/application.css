@@ -14,10 +14,6 @@
  *= require_self
  */
 
-:root {
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-}
-
  /* SHADOW EFFECTS */
 .navbar {
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
@@ -34,24 +30,10 @@
     padding-right: 10px;
 }
 
-.TopBackground {
-    background-image: url(TopRightChange.png);
-    background-repeat: no-repeat;
-    background-position: right 10px top 10px;
-    background-size: 20rem;
-}
-
 .GrayBackground {
     background-image: url(download.svg);
     background-size: 100% 100%;
     background-position: top;
-}
-
-.CardBackground {
-    background-image: url(CardBackground.png);
-    background-repeat: repeat-x;
-    background-position: center;
-    background-size: 20rem;
 }
 
 /* Icons */
@@ -74,24 +56,23 @@
     color: #007bff;
 }
 
-/* Shape */
-.Slant {
-    width: 100%;
-    height: 9rem;
-    margin-top: -8rem;
-    clip-path: polygon(0 85%,100% 0,100% 100%,0 100%);
-    background: rgb(0,40,83);
-    background: linear-gradient(90deg, rgba(0,40,83,1) 0%, rgba(4,12,24,1) 100%);
+/* RESPONSIVE */
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+
+    .section__margin {
+        margin: 4rem;
+    }
 }
 
-.BottomBackground {
-    background: rgb(0,40,83);
-    background: linear-gradient(90deg, rgba(0,40,83,1) 0%, rgba(4,12,24,1) 100%);
-}
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
 
-.BottomBackground h1{
-    font-weight: 800;
-    font-size: 62px;
-    line-height: 75px;
-    color: #fff;
+    .section__margin {
+        margin: 4rem  2rem;
+    }
 }
